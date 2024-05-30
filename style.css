@@ -1,0 +1,36 @@
+body {
+  background-image: url(images/kfc-image.png);
+}
+
+/* styles.css */
+body,
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-container {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  width: 100vw;
+  height: 50vh;
+}
+
+.button-container button {
+  width: 100%;
+  padding: 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 50px;
+  background-color: grey;
+}
+
+#answers {
+  background-color: white;
+}
