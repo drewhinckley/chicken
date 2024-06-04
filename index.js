@@ -1,7 +1,6 @@
 document.addEventListener("DOMContentLoaded", () => {
   const container = document.querySelector(".button-container");
 
-  // Array of custom texts for each button
   const buttonTexts = [
     "What is chicken?",
     "blank",
