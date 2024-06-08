@@ -40,7 +40,7 @@ html {
   transition: background-color 0.1s ease;
 }
 
-/* makes the button a shade darker [ rgb(120, 120, 120) --> rgb(180, 180, 180) ] when mouse is hovered over it */
+/* makes the buttons a shade darker [ rgb(120, 120, 120) --> rgb(180, 180, 180) ] when mouse is hovered over them */
 .button-container button:hover {
   background-color: rgb(180, 180, 180);
 }
